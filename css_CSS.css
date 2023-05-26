@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(61, 65, 170);
+    background-image: url("https://img.itch.zone/aW1nLzIxNTEzNTcucG5n/315x250%23c/BGh5fz.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40%;
+    background-attachment: fixed;
+    margin: 0;
+    height: 50%;
+}
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: rgb(136, 109, 190);
+    }
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background-color: rgb(117, 113, 216);
+    }
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 5px;
+    
+}
+
+.text img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media(max-width: 448px) {
+    img{
+        width: 200px;
+    }
+}
+
+.back {
+    margin-right: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 66, 204);
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    0%   {background-color:rgb(96, 66, 204); left:0px; top:0px;}
+    25%  {background-color: rgb(96, 66, 204); left:200px; top:0px;}
+    50%  {background-color: rgb(96, 66, 204); left:0px; top:0px;}
+
+}

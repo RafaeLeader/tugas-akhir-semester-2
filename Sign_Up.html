@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Daftar</title>
+    <link rel="stylesheet" href="css_Sign_Up.css">
+</head>
+<body>
+    <div class="daftar">
+    <fieldset style="color: #76fa95">
+        <legend>Daftar</legend>
+        <div class="formnya">
+    <h1><b>Daftar HCJ</b></h1>
+    <form>
+        <label for="Nama_mu_deck">Nama:</label>
+        <input type="text" name="Nama_Anda" placeholder="Nama Anda" id="inputNama" required>
+
+        <br><br>
+
+        <label for="Email_luwh">Email:</label>
+        <input type="text" name="Email" placeholder="Email" id="inputEmail" required>
+
+        <br><br>
+
+        <label for="Passnya_ajg">Password:</label>
+        <input type="text" name="Password" placeholder="Password" id="inputPassword" required>
+
+        <br><br>
+
+        <label for="Agama">Agama</label>
+        <select name="Agama">Agama
+            <option value="Katholik">Katholik</option>
+            <option value="Islam">Islam</option>
+            <option value="Budha">Budha</option>
+            <option value="Kristen">Kristen</option>
+            <option value="konghucu">konghucu</option>
+            <option value="hindu">hindu</option>
+        </select>
+
+        <br><br>
+
+        <a href="index.html" onclick="Sign()"><button type="button">Send</button></a>
+        <script src="js_SignUp.js"></script>
+    </form>
+</fieldset>
+</div>
+</div>
+    <!-- End Formulir --> <br> <br>
+    <button onclick="history.back()" class="back">Back(Kembali)</button>
+</body>
+</html>

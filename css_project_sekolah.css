@@ -1,0 +1,78 @@
+body {
+    background: rgb(99, 99, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 10%;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: #272727;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HCJ {
+    size: 0;
+    display: flex;
+    float: right;
+}
+
+.judul {
+    margin-left: 15px;
+}
+
+.nav {
+    word-spacing: -3px;
+    margin-left: 259px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+    justify-content: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.nav a {
+    background-color: #6D7D80;
+    border-radius: 10px;
+    margin-right: 100px;
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.ayobelajar {
+    margin-top: 300px;
+    top: 100%;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.ayobelajar a {
+    color: black;
+    text-decoration: none;
+}
+
+.note {
+    margin-bottom: 20px;
+    top: 100%;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+}
